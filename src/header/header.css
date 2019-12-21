@@ -1,0 +1,21 @@
+.header-container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+.header-menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+
+li:hover {
+    color: darkred;
+    cursor: pointer;
+}
