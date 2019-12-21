@@ -3,7 +3,40 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-image: url("../photos/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: 
+    linear-gradient(
+        rgba(255, 245, 245, 0.65), 
+        rgba(255, 255, 255, 0.58)),
+      url('../photos/background.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    justify-content: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header-text {
+    color: #06065d;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.header-img {
+    width: 300px;
+    border-radius: 6px;
+    border: 10px solid #530505;
 }
